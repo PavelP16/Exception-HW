@@ -15,6 +15,7 @@ public class App {
         }
     }
 
+
     private static void authenticateUser(String login, String password, String confirmPassword) {
         for (int i = 0; i < login.length(); i++) {
             if (!VALID_SYMBOLS.contains(Character.toString(login.charAt(i))) || login.length() > 20) {
